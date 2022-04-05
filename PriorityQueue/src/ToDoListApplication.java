@@ -94,7 +94,7 @@ public class ToDoListApplication extends PriorityQueue<Task> {
         {
             Task task = getTaskById(taskId);
             System.out.println(task);
-            // add your code here to print the task.
+            
         }
         public void removeTask(int taskId)  {
             Task task = getTaskById(taskId);
@@ -124,7 +124,7 @@ public class ToDoListApplication extends PriorityQueue<Task> {
             if (answer.equals("y")) {
                 this.poll();
             }
-            //add code
+          
         }
 
 
